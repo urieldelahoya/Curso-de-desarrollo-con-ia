@@ -1,0 +1,4070 @@
+{
+  "_metadata": {
+    "nombre": "MovieSearch - Catálogo local de demostración",
+    "version": "1.0",
+    "fecha_creacion": "2026-10-28",
+    "tipo": "dataset estático de películas",
+    "cantidad_peliculas": 189,
+    "cobertura": "Selección de películas estrenadas entre 1921 y 2024; no es un catálogo exhaustivo ni incluye títulos de 2025-2026",
+    "actualizacion": "manual",
+    "nota": "Datos básicos seleccionados manualmente. Los géneros son etiquetas orientativas; sinopsis y datos no disponibles se representan con null."
+  },
+  "reglas_asistente": {
+    "responder_solo_con_dataset": true,
+    "respuesta_sin_datos": "No dispongo de esa información en el catálogo local de MovieSearch.",
+    "citar_id": true,
+    "prohibido_inventar_sinopsis": true,
+    "filtrar_por_anio_genero_director": true
+  },
+  "peliculas": [
+    {
+      "id": "MOV-0001",
+      "titulo": "The Kid",
+      "anio": 1921,
+      "generos": [
+        "Comedia",
+        "Drama"
+      ],
+      "directores": [
+        "Charlie Chaplin"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0001.jpg",
+      "poster_attribution": {
+        "autor": "Unknown photographer",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Chaplin The Kid edit.jpg"
+      }
+    },
+    {
+      "id": "MOV-0002",
+      "titulo": "Nosferatu",
+      "anio": 1922,
+      "generos": [
+        "Terror",
+        "Fantasía"
+      ],
+      "directores": [
+        "F. W. Murnau"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0002.jpg",
+      "poster_attribution": {
+        "autor": "Jofa-Atelier Berlin-Johannisthal, Prana-Film GmbH",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Nosferatu title.jpg"
+      }
+    },
+    {
+      "id": "MOV-0003",
+      "titulo": "Metropolis",
+      "anio": 1927,
+      "generos": [
+        "Ciencia ficción",
+        "Drama"
+      ],
+      "directores": [
+        "Fritz Lang"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0003.jpg",
+      "poster_attribution": {
+        "autor": "Boris Konstantinovitch Bilinsky (1900–1948)",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Boris Bilinski (1900-1948) Plakat für den Film Metropolis (3).jpg"
+      }
+    },
+    {
+      "id": "MOV-0004",
+      "titulo": "The Jazz Singer",
+      "anio": 1927,
+      "generos": [
+        "Drama",
+        "Musical"
+      ],
+      "directores": [
+        "Alan Crosland"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0004.jpg",
+      "poster_attribution": {
+        "autor": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "The Jazz Singer 1927 Poster.jpg"
+      }
+    },
+    {
+      "id": "MOV-0005",
+      "titulo": "City Lights",
+      "anio": 1931,
+      "generos": [
+        "Comedia",
+        "Romance",
+        "Drama"
+      ],
+      "directores": [
+        "Charlie Chaplin"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0005.jpg",
+      "poster_attribution": {
+        "autor": "Data: Marc Imhoff/NASA GSFC, Christopher Elvidge/NOAA NGDC; Image: Craig Mayhew and Robert Simmon/NASA GSFC",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Earth's City Lights by DMSP, 1994-1995 (large).jpg"
+      }
+    },
+    {
+      "id": "MOV-0006",
+      "titulo": "Frankenstein",
+      "anio": 1931,
+      "generos": [
+        "Terror",
+        "Ciencia ficción"
+      ],
+      "directores": [
+        "James Whale"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0006.jpg",
+      "poster_attribution": {
+        "autor": "Employee(s) of Universal Pictures",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Poster - Frankenstein 02.jpg"
+      }
+    },
+    {
+      "id": "MOV-0007",
+      "titulo": "Modern Times",
+      "anio": 1936,
+      "generos": [
+        "Comedia",
+        "Drama"
+      ],
+      "directores": [
+        "Charlie Chaplin"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0007.jpg",
+      "poster_attribution": {
+        "autor": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Charlie Chaplin - Modern Times poster (cropped).jpg"
+      }
+    },
+    {
+      "id": "MOV-0008",
+      "titulo": "Snow White and the Seven Dwarfs",
+      "anio": 1937,
+      "generos": [
+        "Animación",
+        "Fantasía",
+        "Musical"
+      ],
+      "directores": [
+        "David Hand"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0008.jpg",
+      "poster_attribution": {
+        "autor": "Desconocido",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Snow white 1937 trailer screenshot.jpg"
+      }
+    },
+    {
+      "id": "MOV-0009",
+      "titulo": "The Wizard of Oz",
+      "anio": 1939,
+      "generos": [
+        "Fantasía",
+        "Aventura",
+        "Musical"
+      ],
+      "directores": [
+        "Victor Fleming"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0009.jpg",
+      "poster_attribution": {
+        "autor": "MGM",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Wizard of oz movie poster.jpg"
+      }
+    },
+    {
+      "id": "MOV-0010",
+      "titulo": "Gone with the Wind",
+      "anio": 1939,
+      "generos": [
+        "Drama",
+        "Romance"
+      ],
+      "directores": [
+        "Victor Fleming"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0011",
+      "titulo": "Pinocchio",
+      "anio": 1940,
+      "generos": [
+        "Animación",
+        "Fantasía"
+      ],
+      "directores": [
+        "Ben Sharpsteen",
+        "Hamilton Luske"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0012",
+      "titulo": "Fantasia",
+      "anio": 1940,
+      "generos": [
+        "Animación",
+        "Musical"
+      ],
+      "directores": [
+        "Ben Sharpsteen"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0013",
+      "titulo": "Citizen Kane",
+      "anio": 1941,
+      "generos": [
+        "Drama",
+        "Misterio"
+      ],
+      "directores": [
+        "Orson Welles"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0014",
+      "titulo": "Casablanca",
+      "anio": 1942,
+      "generos": [
+        "Drama",
+        "Romance"
+      ],
+      "directores": [
+        "Michael Curtiz"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0015",
+      "titulo": "Bambi",
+      "anio": 1942,
+      "generos": [
+        "Animación",
+        "Drama"
+      ],
+      "directores": [
+        "David Hand"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0016",
+      "titulo": "It's a Wonderful Life",
+      "anio": 1946,
+      "generos": [
+        "Drama",
+        "Fantasía"
+      ],
+      "directores": [
+        "Frank Capra"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0017",
+      "titulo": "Rashomon",
+      "anio": 1950,
+      "generos": [
+        "Drama",
+        "Misterio"
+      ],
+      "directores": [
+        "Akira Kurosawa"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0018",
+      "titulo": "Alice in Wonderland",
+      "anio": 1951,
+      "generos": [
+        "Animación",
+        "Fantasía"
+      ],
+      "directores": [
+        "Clyde Geronimi",
+        "Wilfred Jackson",
+        "Hamilton Luske"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0019",
+      "titulo": "Singin' in the Rain",
+      "anio": 1952,
+      "generos": [
+        "Comedia",
+        "Musical",
+        "Romance"
+      ],
+      "directores": [
+        "Gene Kelly",
+        "Stanley Donen"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0020",
+      "titulo": "Seven Samurai",
+      "anio": 1954,
+      "generos": [
+        "Acción",
+        "Drama"
+      ],
+      "directores": [
+        "Akira Kurosawa"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0021",
+      "titulo": "Rear Window",
+      "anio": 1954,
+      "generos": [
+        "Suspenso",
+        "Misterio"
+      ],
+      "directores": [
+        "Alfred Hitchcock"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0022",
+      "titulo": "Godzilla",
+      "anio": 1954,
+      "generos": [
+        "Ciencia ficción",
+        "Terror"
+      ],
+      "directores": [
+        "Ishirō Honda"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0023",
+      "titulo": "12 Angry Men",
+      "anio": 1957,
+      "generos": [
+        "Drama"
+      ],
+      "directores": [
+        "Sidney Lumet"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0023.jpg",
+      "poster_attribution": {
+        "autor": "Illustrator unknown; \"Copyright 1957 <a href=\"https://en.wikipedia.org/wiki/United_Artists\" class=\"extiw\" title=\"w:United Artists\">United Artists Corp.</a>\"",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "12 Angry Men (1957 film poster).jpg"
+      }
+    },
+    {
+      "id": "MOV-0024",
+      "titulo": "The Seventh Seal",
+      "anio": 1957,
+      "generos": [
+        "Drama",
+        "Fantasía"
+      ],
+      "directores": [
+        "Ingmar Bergman"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0024.jpg",
+      "poster_attribution": {
+        "autor": "Ingmar Bergman",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "7th Seal logo.jpg"
+      }
+    },
+    {
+      "id": "MOV-0025",
+      "titulo": "Vertigo",
+      "anio": 1958,
+      "generos": [
+        "Suspenso",
+        "Misterio"
+      ],
+      "directores": [
+        "Alfred Hitchcock"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0026",
+      "titulo": "Some Like It Hot",
+      "anio": 1959,
+      "generos": [
+        "Comedia",
+        "Romance"
+      ],
+      "directores": [
+        "Billy Wilder"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0026.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sukuru&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sukuru (page does not exist)\">Sukuru</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "CC0",
+        "archivo": "SOME LIKE IT HOT TITLE.jpg"
+      }
+    },
+    {
+      "id": "MOV-0027",
+      "titulo": "Psycho",
+      "anio": 1960,
+      "generos": [
+        "Terror",
+        "Suspenso"
+      ],
+      "directores": [
+        "Alfred Hitchcock"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0027.jpg",
+      "poster_attribution": {
+        "autor": "<p><b>Original: </b> <a href=\"https://en.wikipedia.org/wiki/Universal_Pictures\" class=\"extiw\" title=\"w:Universal Pictures\">Universal Pictures</a>\n</p>\n<b>Vectorization: </b> <a href=\"//commons.wikimedia.org/wiki/User:Logovectorizer\" title=\"User:Logovectorizer\">Logovectorizer</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Psycho Logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0028",
+      "titulo": "The Apartment",
+      "anio": 1960,
+      "generos": [
+        "Comedia",
+        "Drama",
+        "Romance"
+      ],
+      "directores": [
+        "Billy Wilder"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0029",
+      "titulo": "West Side Story",
+      "anio": 1961,
+      "generos": [
+        "Musical",
+        "Drama",
+        "Romance"
+      ],
+      "directores": [
+        "Robert Wise",
+        "Jerome Robbins"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0030",
+      "titulo": "Lawrence of Arabia",
+      "anio": 1962,
+      "generos": [
+        "Aventura",
+        "Drama"
+      ],
+      "directores": [
+        "David Lean"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0031",
+      "titulo": "To Kill a Mockingbird",
+      "anio": 1962,
+      "generos": [
+        "Drama"
+      ],
+      "directores": [
+        "Robert Mulligan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0032",
+      "titulo": "The Birds",
+      "anio": 1963,
+      "generos": [
+        "Terror",
+        "Suspenso"
+      ],
+      "directores": [
+        "Alfred Hitchcock"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0033",
+      "titulo": "Mary Poppins",
+      "anio": 1964,
+      "generos": [
+        "Musical",
+        "Fantasía"
+      ],
+      "directores": [
+        "Robert Stevenson"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0033.jpg",
+      "poster_attribution": {
+        "autor": "Walt Disney Studios Motion Pictures",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Mary Poppins Returns Logo Black.svg"
+      }
+    },
+    {
+      "id": "MOV-0034",
+      "titulo": "The Sound of Music",
+      "anio": 1965,
+      "generos": [
+        "Musical",
+        "Drama"
+      ],
+      "directores": [
+        "Robert Wise"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0034.jpg",
+      "poster_attribution": {
+        "autor": "Various",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "The New Movie Magazine 1930-01.pdf"
+      }
+    },
+    {
+      "id": "MOV-0035",
+      "titulo": "2001: A Space Odyssey",
+      "anio": 1968,
+      "generos": [
+        "Ciencia ficción",
+        "Aventura"
+      ],
+      "directores": [
+        "Stanley Kubrick"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0035.jpg",
+      "poster_attribution": {
+        "autor": "Warner Bros.",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "2001 A Space Odyssey (logo).png"
+      }
+    },
+    {
+      "id": "MOV-0036",
+      "titulo": "Night of the Living Dead",
+      "anio": 1968,
+      "generos": [
+        "Terror"
+      ],
+      "directores": [
+        "George A. Romero"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0036.jpg",
+      "poster_attribution": {
+        "autor": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:George_A._Romero\" class=\"extiw\" title=\"w:en:George A. Romero\"><span title=\"Canadian-American filmmaker (1940–2017)\">George A. Romero</span></a></bdi>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Night of the Living Dead (1968).webm"
+      }
+    },
+    {
+      "id": "MOV-0037",
+      "titulo": "The Godfather",
+      "anio": 1972,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "directores": [
+        "Francis Ford Coppola"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0037.jpg",
+      "poster_attribution": {
+        "autor": "Paramount Pictures (1972)",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "The Godfather logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0038",
+      "titulo": "The Exorcist",
+      "anio": 1973,
+      "generos": [
+        "Terror"
+      ],
+      "directores": [
+        "William Friedkin"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0039",
+      "titulo": "The Godfather Part II",
+      "anio": 1974,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "directores": [
+        "Francis Ford Coppola"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0040",
+      "titulo": "Jaws",
+      "anio": 1975,
+      "generos": [
+        "Suspenso",
+        "Aventura"
+      ],
+      "directores": [
+        "Steven Spielberg"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0041",
+      "titulo": "One Flew Over the Cuckoo's Nest",
+      "anio": 1975,
+      "generos": [
+        "Drama"
+      ],
+      "directores": [
+        "Miloš Forman"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0041.jpg",
+      "poster_attribution": {
+        "autor": "Warner Bros.",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "One Flew Over the Cuckoo's Nest Logo.png"
+      }
+    },
+    {
+      "id": "MOV-0042",
+      "titulo": "Rocky",
+      "anio": 1976,
+      "generos": [
+        "Drama",
+        "Deporte"
+      ],
+      "directores": [
+        "John G. Avildsen"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0042.jpg",
+      "poster_attribution": {
+        "autor": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Rocky-Ad-Orange-County-Register-Dec,28-1976-p-18.jpg"
+      }
+    },
+    {
+      "id": "MOV-0043",
+      "titulo": "Star Wars",
+      "anio": 1977,
+      "generos": [
+        "Ciencia ficción",
+        "Aventura",
+        "Acción"
+      ],
+      "directores": [
+        "George Lucas"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0044",
+      "titulo": "Close Encounters of the Third Kind",
+      "anio": 1977,
+      "generos": [
+        "Ciencia ficción",
+        "Drama"
+      ],
+      "directores": [
+        "Steven Spielberg"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0045",
+      "titulo": "Halloween",
+      "anio": 1978,
+      "generos": [
+        "Terror",
+        "Suspenso"
+      ],
+      "directores": [
+        "John Carpenter"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0046",
+      "titulo": "Alien",
+      "anio": 1979,
+      "generos": [
+        "Ciencia ficción",
+        "Terror"
+      ],
+      "directores": [
+        "Ridley Scott"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0047",
+      "titulo": "Apocalypse Now",
+      "anio": 1979,
+      "generos": [
+        "Bélica",
+        "Drama"
+      ],
+      "directores": [
+        "Francis Ford Coppola"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0048",
+      "titulo": "The Empire Strikes Back",
+      "anio": 1980,
+      "generos": [
+        "Ciencia ficción",
+        "Aventura",
+        "Acción"
+      ],
+      "directores": [
+        "Irvin Kershner"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0049",
+      "titulo": "The Shining",
+      "anio": 1980,
+      "generos": [
+        "Terror",
+        "Drama"
+      ],
+      "directores": [
+        "Stanley Kubrick"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0050",
+      "titulo": "Raiders of the Lost Ark",
+      "anio": 1981,
+      "generos": [
+        "Aventura",
+        "Acción"
+      ],
+      "directores": [
+        "Steven Spielberg"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0051",
+      "titulo": "E.T. the Extra-Terrestrial",
+      "anio": 1982,
+      "generos": [
+        "Ciencia ficción",
+        "Familiar"
+      ],
+      "directores": [
+        "Steven Spielberg"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0052",
+      "titulo": "Blade Runner",
+      "anio": 1982,
+      "generos": [
+        "Ciencia ficción",
+        "Suspenso"
+      ],
+      "directores": [
+        "Ridley Scott"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0053",
+      "titulo": "The Thing",
+      "anio": 1982,
+      "generos": [
+        "Terror",
+        "Ciencia ficción"
+      ],
+      "directores": [
+        "John Carpenter"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0054",
+      "titulo": "Return of the Jedi",
+      "anio": 1983,
+      "generos": [
+        "Ciencia ficción",
+        "Aventura",
+        "Acción"
+      ],
+      "directores": [
+        "Richard Marquand"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0055",
+      "titulo": "The Terminator",
+      "anio": 1984,
+      "generos": [
+        "Ciencia ficción",
+        "Acción"
+      ],
+      "directores": [
+        "James Cameron"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0055.jpg",
+      "poster_attribution": {
+        "autor": "Vectorized by <a href=\"//commons.wikimedia.org/wiki/User:Amberrock\" title=\"User:Amberrock\">Amberrock</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "The Terminator (logo).svg"
+      }
+    },
+    {
+      "id": "MOV-0056",
+      "titulo": "Ghostbusters",
+      "anio": 1984,
+      "generos": [
+        "Comedia",
+        "Fantasía"
+      ],
+      "directores": [
+        "Ivan Reitman"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0056.jpg",
+      "poster_attribution": {
+        "autor": "Sony Pictures Entertainment Inc. / Columbia Pictures Industries, Inc. All rights reserved.",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Ghostbusters (franchise text logo).svg"
+      }
+    },
+    {
+      "id": "MOV-0057",
+      "titulo": "Back to the Future",
+      "anio": 1985,
+      "generos": [
+        "Ciencia ficción",
+        "Comedia",
+        "Aventura"
+      ],
+      "directores": [
+        "Robert Zemeckis"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0057.jpg",
+      "poster_attribution": {
+        "autor": "Universal Pictures",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Back to the Future Part II logo.png"
+      }
+    },
+    {
+      "id": "MOV-0058",
+      "titulo": "The Breakfast Club",
+      "anio": 1985,
+      "generos": [
+        "Comedia",
+        "Drama"
+      ],
+      "directores": [
+        "John Hughes"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0059",
+      "titulo": "Aliens",
+      "anio": 1986,
+      "generos": [
+        "Ciencia ficción",
+        "Acción",
+        "Terror"
+      ],
+      "directores": [
+        "James Cameron"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0059.jpg",
+      "poster_attribution": {
+        "autor": "aliens",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Aliens-logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0060",
+      "titulo": "Predator",
+      "anio": 1987,
+      "generos": [
+        "Ciencia ficción",
+        "Acción"
+      ],
+      "directores": [
+        "John McTiernan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0061",
+      "titulo": "My Neighbor Totoro",
+      "anio": 1988,
+      "generos": [
+        "Animación",
+        "Fantasía",
+        "Familiar"
+      ],
+      "directores": [
+        "Hayao Miyazaki"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0062",
+      "titulo": "Die Hard",
+      "anio": 1988,
+      "generos": [
+        "Acción",
+        "Suspenso"
+      ],
+      "directores": [
+        "John McTiernan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0062.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"https://en.wikipedia.org/wiki/20th_Century_Fox\" class=\"extiw\" title=\"en:20th Century Fox\">20th Century Studios</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Die Hard film logo.png"
+      }
+    },
+    {
+      "id": "MOV-0063",
+      "titulo": "Batman",
+      "anio": 1989,
+      "generos": [
+        "Acción",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Tim Burton"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0063.jpg",
+      "poster_attribution": {
+        "autor": "Greenway Productions",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Batman villains 1966.jpg"
+      }
+    },
+    {
+      "id": "MOV-0064",
+      "titulo": "Dead Poets Society",
+      "anio": 1989,
+      "generos": [
+        "Drama"
+      ],
+      "directores": [
+        "Peter Weir"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0065",
+      "titulo": "Home Alone",
+      "anio": 1990,
+      "generos": [
+        "Comedia",
+        "Familiar"
+      ],
+      "directores": [
+        "Chris Columbus"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0066",
+      "titulo": "Goodfellas",
+      "anio": 1990,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "directores": [
+        "Martin Scorsese"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0067",
+      "titulo": "Terminator 2: Judgment Day",
+      "anio": 1991,
+      "generos": [
+        "Ciencia ficción",
+        "Acción"
+      ],
+      "directores": [
+        "James Cameron"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0068",
+      "titulo": "The Silence of the Lambs",
+      "anio": 1991,
+      "generos": [
+        "Suspenso",
+        "Crimen"
+      ],
+      "directores": [
+        "Jonathan Demme"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0069",
+      "titulo": "Beauty and the Beast",
+      "anio": 1991,
+      "generos": [
+        "Animación",
+        "Romance",
+        "Fantasía"
+      ],
+      "directores": [
+        "Gary Trousdale",
+        "Kirk Wise"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0069.jpg",
+      "poster_attribution": {
+        "autor": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.themoviedb.org/u/drwily\">https://www.themoviedb.org/u/drwily</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "CC0",
+        "archivo": "Beauty and the Beast official swedish logo.webp"
+      }
+    },
+    {
+      "id": "MOV-0070",
+      "titulo": "Aladdin",
+      "anio": 1992,
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Fantasía"
+      ],
+      "directores": [
+        "Ron Clements",
+        "John Musker"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0070.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"https://en.wikipedia.org/wiki/The_Walt_Disney_Company\" class=\"extiw\" title=\"w:The Walt Disney Company\">w:The Walt Disney Company</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Aladdin (Disney franchise) logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0071",
+      "titulo": "Jurassic Park",
+      "anio": 1993,
+      "generos": [
+        "Ciencia ficción",
+        "Aventura"
+      ],
+      "directores": [
+        "Steven Spielberg"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0071.jpg",
+      "poster_attribution": {
+        "autor": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.themoviedb.org/u/cyrax_36\">https://www.themoviedb.org/u/cyrax_36</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "CC0",
+        "archivo": "The Lost World Jurassic Park logo.webp"
+      }
+    },
+    {
+      "id": "MOV-0072",
+      "titulo": "Schindler's List",
+      "anio": 1993,
+      "generos": [
+        "Drama",
+        "Histórica"
+      ],
+      "directores": [
+        "Steven Spielberg"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0073",
+      "titulo": "The Nightmare Before Christmas",
+      "anio": 1993,
+      "generos": [
+        "Animación",
+        "Fantasía",
+        "Musical"
+      ],
+      "directores": [
+        "Henry Selick"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0074",
+      "titulo": "The Lion King",
+      "anio": 1994,
+      "generos": [
+        "Animación",
+        "Drama",
+        "Familiar"
+      ],
+      "directores": [
+        "Roger Allers",
+        "Rob Minkoff"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0075",
+      "titulo": "Pulp Fiction",
+      "anio": 1994,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "directores": [
+        "Quentin Tarantino"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0076",
+      "titulo": "Forrest Gump",
+      "anio": 1994,
+      "generos": [
+        "Drama",
+        "Romance"
+      ],
+      "directores": [
+        "Robert Zemeckis"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0076.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"//commons.wikimedia.org/wiki/User:Dasaptaerwin\" title=\"User:Dasaptaerwin\">Dasaptaerwin</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "CC0",
+        "archivo": "Graphical-summary-forest-gump.jpg"
+      }
+    },
+    {
+      "id": "MOV-0077",
+      "titulo": "The Shawshank Redemption",
+      "anio": 1994,
+      "generos": [
+        "Drama"
+      ],
+      "directores": [
+        "Frank Darabont"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0077.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Marmolejo1489&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Marmolejo1489 (page does not exist)\">Marmolejo1489</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "The Shawshank Redemption movie logo.png"
+      }
+    },
+    {
+      "id": "MOV-0078",
+      "titulo": "Se7en",
+      "anio": 1995,
+      "generos": [
+        "Crimen",
+        "Suspenso"
+      ],
+      "directores": [
+        "David Fincher"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0079",
+      "titulo": "Toy Story",
+      "anio": 1995,
+      "generos": [
+        "Animación",
+        "Comedia",
+        "Familiar"
+      ],
+      "directores": [
+        "John Lasseter"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0079.jpg",
+      "poster_attribution": {
+        "autor": "Disney Enterprises, Inc./Pixar",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Toy Story 4 logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0080",
+      "titulo": "Braveheart",
+      "anio": 1995,
+      "generos": [
+        "Histórica",
+        "Drama",
+        "Acción"
+      ],
+      "directores": [
+        "Mel Gibson"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0081",
+      "titulo": "Scream",
+      "anio": 1996,
+      "generos": [
+        "Terror",
+        "Misterio"
+      ],
+      "directores": [
+        "Wes Craven"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0082",
+      "titulo": "Titanic",
+      "anio": 1997,
+      "generos": [
+        "Drama",
+        "Romance"
+      ],
+      "directores": [
+        "James Cameron"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0083",
+      "titulo": "Princess Mononoke",
+      "anio": 1997,
+      "generos": [
+        "Animación",
+        "Fantasía",
+        "Aventura"
+      ],
+      "directores": [
+        "Hayao Miyazaki"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0083.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"//commons.wikimedia.org/wiki/User:Jesmar\" title=\"User:Jesmar\">Jesmar</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Princess Mononoke Logo fr.svg"
+      }
+    },
+    {
+      "id": "MOV-0084",
+      "titulo": "Men in Black",
+      "anio": 1997,
+      "generos": [
+        "Ciencia ficción",
+        "Comedia"
+      ],
+      "directores": [
+        "Barry Sonnenfeld"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0084.jpg",
+      "poster_attribution": {
+        "autor": "Sony Pictures",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Men in Black II logo.png"
+      }
+    },
+    {
+      "id": "MOV-0085",
+      "titulo": "The Truman Show",
+      "anio": 1998,
+      "generos": [
+        "Drama",
+        "Comedia"
+      ],
+      "directores": [
+        "Peter Weir"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0085.jpg",
+      "poster_attribution": {
+        "autor": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "The Truman Show.png"
+      }
+    },
+    {
+      "id": "MOV-0086",
+      "titulo": "Mulan",
+      "anio": 1998,
+      "generos": [
+        "Animación",
+        "Aventura"
+      ],
+      "directores": [
+        "Tony Bancroft",
+        "Barry Cook"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0087",
+      "titulo": "The Matrix",
+      "anio": 1999,
+      "generos": [
+        "Ciencia ficción",
+        "Acción"
+      ],
+      "directores": [
+        "Lana Wachowski",
+        "Lilly Wachowski"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0087.jpg",
+      "poster_attribution": {
+        "autor": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Warner_Bros._Pictures\" class=\"extiw\" title=\"w:en:Warner Bros. Pictures\"><span title=\"American film studio\">Warner Bros. Pictures</span></a>\n</bdi> / <bdi><a href=\"https://en.wikipedia.org/wiki/en:Village_Roadshow_Pictures\" class=\"extiw\" title=\"w:en:Village Roadshow Pictures\"><span title=\"American film production company\">Village Roadshow Pictures</span></a>\n</bdi>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "The-matrix-logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0088",
+      "titulo": "Fight Club",
+      "anio": 1999,
+      "generos": [
+        "Drama",
+        "Suspenso"
+      ],
+      "directores": [
+        "David Fincher"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0089",
+      "titulo": "The Sixth Sense",
+      "anio": 1999,
+      "generos": [
+        "Suspenso",
+        "Drama"
+      ],
+      "directores": [
+        "M. Night Shyamalan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0090",
+      "titulo": "Toy Story 2",
+      "anio": 1999,
+      "generos": [
+        "Animación",
+        "Comedia",
+        "Familiar"
+      ],
+      "directores": [
+        "John Lasseter"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0091",
+      "titulo": "Gladiator",
+      "anio": 2000,
+      "generos": [
+        "Acción",
+        "Drama",
+        "Histórica"
+      ],
+      "directores": [
+        "Ridley Scott"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0091.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dam0812&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dam0812 (page does not exist)\">Dam0812</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "CC0",
+        "archivo": "Gladiator movie logo.png"
+      }
+    },
+    {
+      "id": "MOV-0092",
+      "titulo": "Memento",
+      "anio": 2000,
+      "generos": [
+        "Misterio",
+        "Suspenso"
+      ],
+      "directores": [
+        "Christopher Nolan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0092.jpg",
+      "poster_attribution": {
+        "autor": "Diseñadores publicitarios",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Memento.svg"
+      }
+    },
+    {
+      "id": "MOV-0093",
+      "titulo": "Cast Away",
+      "anio": 2000,
+      "generos": [
+        "Drama",
+        "Aventura"
+      ],
+      "directores": [
+        "Robert Zemeckis"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0093.jpg",
+      "poster_attribution": {
+        "autor": "20th Century Fox",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Cast Away - Logo.png"
+      }
+    },
+    {
+      "id": "MOV-0094",
+      "titulo": "Spirited Away",
+      "anio": 2001,
+      "generos": [
+        "Animación",
+        "Fantasía",
+        "Aventura"
+      ],
+      "directores": [
+        "Hayao Miyazaki"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0094.jpg",
+      "poster_attribution": {
+        "autor": "Studio Ghibli",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Sen to Chihiro no kamikakushi title.jpg"
+      }
+    },
+    {
+      "id": "MOV-0095",
+      "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+      "anio": 2001,
+      "generos": [
+        "Fantasía",
+        "Aventura"
+      ],
+      "directores": [
+        "Peter Jackson"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0096",
+      "titulo": "Harry Potter and the Philosopher's Stone",
+      "anio": 2001,
+      "generos": [
+        "Fantasía",
+        "Aventura",
+        "Familiar"
+      ],
+      "directores": [
+        "Chris Columbus"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0097",
+      "titulo": "Monsters, Inc.",
+      "anio": 2001,
+      "generos": [
+        "Animación",
+        "Comedia",
+        "Familiar"
+      ],
+      "directores": [
+        "Pete Docter"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0098",
+      "titulo": "The Lord of the Rings: The Two Towers",
+      "anio": 2002,
+      "generos": [
+        "Fantasía",
+        "Aventura"
+      ],
+      "directores": [
+        "Peter Jackson"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0098.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pottero&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pottero (page does not exist)\">Pottero</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Władca pierścieni꞉ Dwie wieże – logo.png"
+      }
+    },
+    {
+      "id": "MOV-0099",
+      "titulo": "Spider-Man",
+      "anio": 2002,
+      "generos": [
+        "Acción",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Sam Raimi"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0099.jpg",
+      "poster_attribution": {
+        "autor": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Sony_Pictures_Animation\" class=\"extiw\" title=\"w:en:Sony Pictures Animation\"><span title=\"American computer-animated film production company\">Sony Pictures Animation</span></a>\n</bdi>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Spider-Man Across the Spider-Verse logo.webp"
+      }
+    },
+    {
+      "id": "MOV-0100",
+      "titulo": "Catch Me If You Can",
+      "anio": 2002,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "directores": [
+        "Steven Spielberg"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0101",
+      "titulo": "Finding Nemo",
+      "anio": 2003,
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Familiar"
+      ],
+      "directores": [
+        "Andrew Stanton"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0101.jpg",
+      "poster_attribution": {
+        "autor": "Disney / Pixar",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Logo de Buscando a Nemo.svg"
+      }
+    },
+    {
+      "id": "MOV-0102",
+      "titulo": "The Lord of the Rings: The Return of the King",
+      "anio": 2003,
+      "generos": [
+        "Fantasía",
+        "Aventura"
+      ],
+      "directores": [
+        "Peter Jackson"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0102.jpg",
+      "poster_attribution": {
+        "autor": "Andrew McMillan",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Crowds at lord of the rings movie.jpg"
+      }
+    },
+    {
+      "id": "MOV-0103",
+      "titulo": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "anio": 2003,
+      "generos": [
+        "Aventura",
+        "Fantasía",
+        "Acción"
+      ],
+      "directores": [
+        "Gore Verbinski"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0103.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"https://en.wikipedia.org/wiki/The_Walt_Disney_Company\" class=\"extiw\" title=\"w:The Walt Disney Company\">The Walt Disney Company</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Pirates of the Caribbean logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0104",
+      "titulo": "Oldboy",
+      "anio": 2003,
+      "generos": [
+        "Acción",
+        "Suspenso"
+      ],
+      "directores": [
+        "Park Chan-wook"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0104.jpg",
+      "poster_attribution": {
+        "autor": "CJ Entertainment",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Oldboy original logo.jpg"
+      }
+    },
+    {
+      "id": "MOV-0105",
+      "titulo": "Kill Bill: Vol. 1",
+      "anio": 2003,
+      "generos": [
+        "Acción",
+        "Crimen"
+      ],
+      "directores": [
+        "Quentin Tarantino"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0105.jpg",
+      "poster_attribution": {
+        "autor": "quentin tarantino",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Killbill-vol1-logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0106",
+      "titulo": "The Incredibles",
+      "anio": 2004,
+      "generos": [
+        "Animación",
+        "Acción",
+        "Familiar"
+      ],
+      "directores": [
+        "Brad Bird"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0106.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"https://en.wikipedia.org/wiki/Pixar_Animation_Studios\" class=\"extiw\" title=\"en:Pixar Animation Studios\">Pixar Animation Studios</a>, <a href=\"https://en.wikipedia.org/wiki/Walt_Disney_Pictures\" class=\"extiw\" title=\"en:Walt Disney Pictures\">Walt Disney Pictures</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "The Incredibles logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0107",
+      "titulo": "Eternal Sunshine of the Spotless Mind",
+      "anio": 2004,
+      "generos": [
+        "Ciencia ficción",
+        "Romance",
+        "Drama"
+      ],
+      "directores": [
+        "Michel Gondry"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0108",
+      "titulo": "Howl's Moving Castle",
+      "anio": 2004,
+      "generos": [
+        "Animación",
+        "Fantasía",
+        "Romance"
+      ],
+      "directores": [
+        "Hayao Miyazaki"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0109",
+      "titulo": "Batman Begins",
+      "anio": 2005,
+      "generos": [
+        "Acción",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Christopher Nolan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0110",
+      "titulo": "Corpse Bride",
+      "anio": 2005,
+      "generos": [
+        "Animación",
+        "Fantasía",
+        "Romance"
+      ],
+      "directores": [
+        "Tim Burton",
+        "Mike Johnson"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0111",
+      "titulo": "V for Vendetta",
+      "anio": 2005,
+      "generos": [
+        "Acción",
+        "Ciencia ficción"
+      ],
+      "directores": [
+        "James McTeigue"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0112",
+      "titulo": "The Prestige",
+      "anio": 2006,
+      "generos": [
+        "Drama",
+        "Misterio",
+        "Suspenso"
+      ],
+      "directores": [
+        "Christopher Nolan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0113",
+      "titulo": "Pan's Labyrinth",
+      "anio": 2006,
+      "generos": [
+        "Fantasía",
+        "Drama"
+      ],
+      "directores": [
+        "Guillermo del Toro"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0113.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Marmolejo1489&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Marmolejo1489 (page does not exist)\">Marmolejo1489</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Pan's Labyrinth movie black horizontal logo.png"
+      }
+    },
+    {
+      "id": "MOV-0114",
+      "titulo": "The Departed",
+      "anio": 2006,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "directores": [
+        "Martin Scorsese"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0114.jpg",
+      "poster_attribution": {
+        "autor": "<p><b>Original: </b> <a href=\"https://en.wikipedia.org/wiki/Warner_Bros._Pictures\" class=\"extiw\" title=\"w:Warner Bros. Pictures\">Warner Bros. Pictures</a>\n</p>\n<b>Vectorization: </b> <a href=\"//commons.wikimedia.org/wiki/User:Logovectorizer\" title=\"User:Logovectorizer\">Logovectorizer</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "The Departed logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0115",
+      "titulo": "Ratatouille",
+      "anio": 2007,
+      "generos": [
+        "Animación",
+        "Comedia",
+        "Familiar"
+      ],
+      "directores": [
+        "Brad Bird"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0116",
+      "titulo": "No Country for Old Men",
+      "anio": 2007,
+      "generos": [
+        "Crimen",
+        "Suspenso",
+        "Drama"
+      ],
+      "directores": [
+        "Joel Coen",
+        "Ethan Coen"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0117",
+      "titulo": "There Will Be Blood",
+      "anio": 2007,
+      "generos": [
+        "Drama"
+      ],
+      "directores": [
+        "Paul Thomas Anderson"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0117.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"https://www.wikidata.org/wiki/Q186941\" class=\"extiw\" title=\"d:Q186941\"><span title=\"American film production and distribution company\">Columbia Pictures</span></a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "In Cold Blood - movie logo.png"
+      }
+    },
+    {
+      "id": "MOV-0118",
+      "titulo": "Iron Man",
+      "anio": 2008,
+      "generos": [
+        "Acción",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Jon Favreau"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0118.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"//commons.wikimedia.org/wiki/User:Versedi\" title=\"User:Versedi\">Versedi</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Iron Man - 2008 movie logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0119",
+      "titulo": "The Dark Knight",
+      "anio": 2008,
+      "generos": [
+        "Acción",
+        "Crimen",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Christopher Nolan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0119.jpg",
+      "poster_attribution": {
+        "autor": "<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"https://x.com/CitizenVMovie\">Official account for CITIZEN VIGILANTE.</a></li>\n<li>Screenshot by <a href=\"//commons.wikimedia.org/wiki/User:RoyZuo\" title=\"User:RoyZuo\">Roy Zuo</a></li></ul>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "(2026) Citizen Vigilante - title.png"
+      }
+    },
+    {
+      "id": "MOV-0120",
+      "titulo": "WALL-E",
+      "anio": 2008,
+      "generos": [
+        "Animación",
+        "Ciencia ficción",
+        "Familiar"
+      ],
+      "directores": [
+        "Andrew Stanton"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0120.jpg",
+      "poster_attribution": {
+        "autor": "The Walt Disney Company",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "WALL-E logo russian.png"
+      }
+    },
+    {
+      "id": "MOV-0121",
+      "titulo": "Slumdog Millionaire",
+      "anio": 2008,
+      "generos": [
+        "Drama",
+        "Romance"
+      ],
+      "directores": [
+        "Danny Boyle"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0122",
+      "titulo": "Avatar",
+      "anio": 2009,
+      "generos": [
+        "Ciencia ficción",
+        "Aventura"
+      ],
+      "directores": [
+        "James Cameron"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0123",
+      "titulo": "Up",
+      "anio": 2009,
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Comedia"
+      ],
+      "directores": [
+        "Pete Docter"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0124",
+      "titulo": "Coraline",
+      "anio": 2009,
+      "generos": [
+        "Animación",
+        "Fantasía",
+        "Terror"
+      ],
+      "directores": [
+        "Henry Selick"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0125",
+      "titulo": "Inglourious Basterds",
+      "anio": 2009,
+      "generos": [
+        "Bélica",
+        "Drama"
+      ],
+      "directores": [
+        "Quentin Tarantino"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0126",
+      "titulo": "Inception",
+      "anio": 2010,
+      "generos": [
+        "Ciencia ficción",
+        "Acción",
+        "Suspenso"
+      ],
+      "directores": [
+        "Christopher Nolan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0127",
+      "titulo": "Toy Story 3",
+      "anio": 2010,
+      "generos": [
+        "Animación",
+        "Comedia",
+        "Drama"
+      ],
+      "directores": [
+        "Lee Unkrich"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0128",
+      "titulo": "The Social Network",
+      "anio": 2010,
+      "generos": [
+        "Drama",
+        "Biográfica"
+      ],
+      "directores": [
+        "David Fincher"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0128.jpg",
+      "poster_attribution": {
+        "autor": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:The_Social_Network.jpg\" title=\"File:The Social Network.jpg\">The_Social_Network.jpg</a>: Sony Pictures</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Markus1983\" title=\"User:Markus1983\">Markus1983</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Markus1983\" title=\"User talk:Markus1983\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "The social network.svg"
+      }
+    },
+    {
+      "id": "MOV-0129",
+      "titulo": "Black Swan",
+      "anio": 2010,
+      "generos": [
+        "Drama",
+        "Suspenso"
+      ],
+      "directores": [
+        "Darren Aronofsky"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0129.jpg",
+      "poster_attribution": {
+        "autor": "<p><b>Original: </b> <a href=\"https://en.wikipedia.org/wiki/Fox_Searchlight_Pictures\" class=\"extiw\" title=\"w:Fox Searchlight Pictures\">Fox Searchlight Pictures</a> &amp; <a href=\"https://en.wikipedia.org/wiki/Cross_Creek_Pictures\" class=\"extiw\" title=\"w:Cross Creek Pictures\">Cross Creek Pictures</a>\n</p>\n<b>Vectorization: </b> <a href=\"//commons.wikimedia.org/wiki/User:Logovectorizer\" title=\"User:Logovectorizer\">Logovectorizer</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Black Swan logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0130",
+      "titulo": "Harry Potter and the Deathly Hallows: Part 2",
+      "anio": 2011,
+      "generos": [
+        "Fantasía",
+        "Aventura"
+      ],
+      "directores": [
+        "David Yates"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0131",
+      "titulo": "Drive",
+      "anio": 2011,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "directores": [
+        "Nicolas Winding Refn"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0132",
+      "titulo": "The Avengers",
+      "anio": 2012,
+      "generos": [
+        "Acción",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Joss Whedon"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0133",
+      "titulo": "The Dark Knight Rises",
+      "anio": 2012,
+      "generos": [
+        "Acción",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Christopher Nolan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0134",
+      "titulo": "Django Unchained",
+      "anio": 2012,
+      "generos": [
+        "Drama",
+        "Western"
+      ],
+      "directores": [
+        "Quentin Tarantino"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0135",
+      "titulo": "The Hunger Games",
+      "anio": 2012,
+      "generos": [
+        "Ciencia ficción",
+        "Aventura"
+      ],
+      "directores": [
+        "Gary Ross"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0136",
+      "titulo": "Frozen",
+      "anio": 2013,
+      "generos": [
+        "Animación",
+        "Fantasía",
+        "Musical"
+      ],
+      "directores": [
+        "Chris Buck",
+        "Jennifer Lee"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0137",
+      "titulo": "Gravity",
+      "anio": 2013,
+      "generos": [
+        "Ciencia ficción",
+        "Suspenso"
+      ],
+      "directores": [
+        "Alfonso Cuarón"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0138",
+      "titulo": "Her",
+      "anio": 2013,
+      "generos": [
+        "Ciencia ficción",
+        "Romance",
+        "Drama"
+      ],
+      "directores": [
+        "Spike Jonze"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0139",
+      "titulo": "The Wolf of Wall Street",
+      "anio": 2013,
+      "generos": [
+        "Biográfica",
+        "Drama",
+        "Comedia"
+      ],
+      "directores": [
+        "Martin Scorsese"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0139.jpg",
+      "poster_attribution": {
+        "autor": "<p><b>Original: </b> <a href=\"https://en.wikipedia.org/wiki/Paramount_Pictures\" class=\"extiw\" title=\"w:Paramount Pictures\">Paramount Pictures</a>\n</p>\n<b>Vectorization: </b> <a href=\"//commons.wikimedia.org/wiki/User:Logovectorizer\" title=\"User:Logovectorizer\">Logovectorizer</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "The Wolf of Wall Street logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0140",
+      "titulo": "Interstellar",
+      "anio": 2014,
+      "generos": [
+        "Ciencia ficción",
+        "Drama",
+        "Aventura"
+      ],
+      "directores": [
+        "Christopher Nolan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0140.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Super_Galaxy_II&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Super Galaxy II (page does not exist)\">Super Galaxy II</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "CC0",
+        "archivo": "Interstellar-logo.jpg"
+      }
+    },
+    {
+      "id": "MOV-0141",
+      "titulo": "Whiplash",
+      "anio": 2014,
+      "generos": [
+        "Drama",
+        "Musical"
+      ],
+      "directores": [
+        "Damien Chazelle"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0141.jpg",
+      "poster_attribution": {
+        "autor": "Sierra/Affinity, Bold Films, Blumhouse Productions, Right of Way Films",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Whiplash movie logo.png"
+      }
+    },
+    {
+      "id": "MOV-0142",
+      "titulo": "Guardians of the Galaxy",
+      "anio": 2014,
+      "generos": [
+        "Acción",
+        "Ciencia ficción",
+        "Comedia"
+      ],
+      "directores": [
+        "James Gunn"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0142.jpg",
+      "poster_attribution": {
+        "autor": "The Walt Disney Company",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Guardians of the Galaxy Logo Black.svg"
+      }
+    },
+    {
+      "id": "MOV-0143",
+      "titulo": "Big Hero 6",
+      "anio": 2014,
+      "generos": [
+        "Animación",
+        "Acción",
+        "Familiar"
+      ],
+      "directores": [
+        "Don Hall",
+        "Chris Williams"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0143.jpg",
+      "poster_attribution": {
+        "autor": "The Walt Disney Company",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Big Hero 6 logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0144",
+      "titulo": "Mad Max: Fury Road",
+      "anio": 2015,
+      "generos": [
+        "Acción",
+        "Ciencia ficción"
+      ],
+      "directores": [
+        "George Miller"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0145",
+      "titulo": "Inside Out",
+      "anio": 2015,
+      "generos": [
+        "Animación",
+        "Comedia",
+        "Drama"
+      ],
+      "directores": [
+        "Pete Docter"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0145.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"https://en.wikipedia.org/wiki/The_Walt_Disney_Company\" class=\"extiw\" title=\"w:The Walt Disney Company\">Disney</a>/<a href=\"https://en.wikipedia.org/wiki/Pixar_Animation_Studios\" class=\"extiw\" title=\"w:Pixar Animation Studios\">Pixar</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Inside Out 2.jpg"
+      }
+    },
+    {
+      "id": "MOV-0146",
+      "titulo": "The Martian",
+      "anio": 2015,
+      "generos": [
+        "Ciencia ficción",
+        "Drama"
+      ],
+      "directores": [
+        "Ridley Scott"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0147",
+      "titulo": "Star Wars: The Force Awakens",
+      "anio": 2015,
+      "generos": [
+        "Ciencia ficción",
+        "Acción",
+        "Aventura"
+      ],
+      "directores": [
+        "J. J. Abrams"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0148",
+      "titulo": "Zootopia",
+      "anio": 2016,
+      "generos": [
+        "Animación",
+        "Comedia",
+        "Familiar"
+      ],
+      "directores": [
+        "Byron Howard",
+        "Rich Moore"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0148.jpg",
+      "poster_attribution": {
+        "autor": "™/®Walt Disney Animation Studios",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Zootopia logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0149",
+      "titulo": "Arrival",
+      "anio": 2016,
+      "generos": [
+        "Ciencia ficción",
+        "Drama"
+      ],
+      "directores": [
+        "Denis Villeneuve"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0150",
+      "titulo": "La La Land",
+      "anio": 2016,
+      "generos": [
+        "Musical",
+        "Romance",
+        "Drama"
+      ],
+      "directores": [
+        "Damien Chazelle"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0150.jpg",
+      "poster_attribution": {
+        "autor": "Summit Entertainment / Gilbert Films / Impostor Pictures / Marc Platt Productions",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "La La Land Logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0151",
+      "titulo": "Your Name",
+      "anio": 2016,
+      "generos": [
+        "Animación",
+        "Romance",
+        "Fantasía"
+      ],
+      "directores": [
+        "Makoto Shinkai"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0151.jpg",
+      "poster_attribution": {
+        "autor": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Roger_Kastel\" class=\"extiw\" title=\"w:en:Roger Kastel\"><span title=\"American artist (1932-2023)\">Roger Kastel</span></a></bdi>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Jaws movie poster.jpg"
+      }
+    },
+    {
+      "id": "MOV-0152",
+      "titulo": "Moonlight",
+      "anio": 2016,
+      "generos": [
+        "Drama"
+      ],
+      "directores": [
+        "Barry Jenkins"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0152.jpg",
+      "poster_attribution": {
+        "autor": "A24",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Moonlight Film Logo.png"
+      }
+    },
+    {
+      "id": "MOV-0153",
+      "titulo": "Get Out",
+      "anio": 2017,
+      "generos": [
+        "Terror",
+        "Misterio",
+        "Suspenso"
+      ],
+      "directores": [
+        "Jordan Peele"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0153.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"//commons.wikimedia.org/wiki/User:%E3%83%96%E3%83%AB%E3%83%83%E3%82%A6\" title=\"User:ブルッウ\">ブルッウ</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Get Out logo.png"
+      }
+    },
+    {
+      "id": "MOV-0154",
+      "titulo": "Coco",
+      "anio": 2017,
+      "generos": [
+        "Animación",
+        "Musical",
+        "Familiar"
+      ],
+      "directores": [
+        "Lee Unkrich"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0155",
+      "titulo": "Blade Runner 2049",
+      "anio": 2017,
+      "generos": [
+        "Ciencia ficción",
+        "Drama"
+      ],
+      "directores": [
+        "Denis Villeneuve"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0156",
+      "titulo": "Dunkirk",
+      "anio": 2017,
+      "generos": [
+        "Bélica",
+        "Drama"
+      ],
+      "directores": [
+        "Christopher Nolan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0156.jpg",
+      "poster_attribution": {
+        "autor": "Warner Bros.",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Dunkirk Logo.png"
+      }
+    },
+    {
+      "id": "MOV-0157",
+      "titulo": "Spider-Man: Into the Spider-Verse",
+      "anio": 2018,
+      "generos": [
+        "Animación",
+        "Acción",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Bob Persichetti",
+        "Peter Ramsey",
+        "Rodney Rothman"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0157.jpg",
+      "poster_attribution": {
+        "autor": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Sony_Pictures_Animation\" class=\"extiw\" title=\"w:en:Sony Pictures Animation\"><span title=\"American computer-animated film production company\">Sony Pictures Animation</span></a>\n</bdi>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Spider-Man Across the Spider-Verse logo.webp"
+      }
+    },
+    {
+      "id": "MOV-0158",
+      "titulo": "Avengers: Infinity War",
+      "anio": 2018,
+      "generos": [
+        "Acción",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Anthony Russo",
+        "Joe Russo"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0158.jpg",
+      "poster_attribution": {
+        "autor": "John Roberti",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Avengers-infinity-war-logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0159",
+      "titulo": "Black Panther",
+      "anio": 2018,
+      "generos": [
+        "Acción",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Ryan Coogler"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0159.jpg",
+      "poster_attribution": {
+        "autor": "O'Halloran, Thomas J., photographer.; Leffler, Warren K., photographer. For <i>US News and World Report</i>.",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Black Panther convention2.jpg"
+      }
+    },
+    {
+      "id": "MOV-0160",
+      "titulo": "A Quiet Place",
+      "anio": 2018,
+      "generos": [
+        "Terror",
+        "Ciencia ficción"
+      ],
+      "directores": [
+        "John Krasinski"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0160.jpg",
+      "poster_attribution": {
+        "autor": "Paramount Pictures, Platinum Dunes, Sunday Night Productions",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "A Quiet Place series logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0161",
+      "titulo": "Parasite",
+      "anio": 2019,
+      "generos": [
+        "Suspenso",
+        "Drama"
+      ],
+      "directores": [
+        "Bong Joon-ho"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0162",
+      "titulo": "Joker",
+      "anio": 2019,
+      "generos": [
+        "Crimen",
+        "Drama"
+      ],
+      "directores": [
+        "Todd Phillips"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0163",
+      "titulo": "Avengers: Endgame",
+      "anio": 2019,
+      "generos": [
+        "Acción",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Anthony Russo",
+        "Joe Russo"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0163.jpg",
+      "poster_attribution": {
+        "autor": "Marvel Studios",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Avengers endgame logo.png"
+      }
+    },
+    {
+      "id": "MOV-0164",
+      "titulo": "1917",
+      "anio": 2019,
+      "generos": [
+        "Bélica",
+        "Drama"
+      ],
+      "directores": [
+        "Sam Mendes"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0165",
+      "titulo": "Knives Out",
+      "anio": 2019,
+      "generos": [
+        "Misterio",
+        "Comedia",
+        "Crimen"
+      ],
+      "directores": [
+        "Rian Johnson"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0166",
+      "titulo": "Soul",
+      "anio": 2020,
+      "generos": [
+        "Animación",
+        "Fantasía",
+        "Drama"
+      ],
+      "directores": [
+        "Pete Docter"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0167",
+      "titulo": "Tenet",
+      "anio": 2020,
+      "generos": [
+        "Ciencia ficción",
+        "Acción",
+        "Suspenso"
+      ],
+      "directores": [
+        "Christopher Nolan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0167.jpg",
+      "poster_attribution": {
+        "autor": "Warner Bros.",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Tenet 2020 logo.png"
+      }
+    },
+    {
+      "id": "MOV-0168",
+      "titulo": "The Trial of the Chicago 7",
+      "anio": 2020,
+      "generos": [
+        "Drama",
+        "Histórica"
+      ],
+      "directores": [
+        "Aaron Sorkin"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0168.jpg",
+      "poster_attribution": {
+        "autor": "Various",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "The New Movie Magazine 1930-05.pdf"
+      }
+    },
+    {
+      "id": "MOV-0169",
+      "titulo": "Minari",
+      "anio": 2020,
+      "generos": [
+        "Drama"
+      ],
+      "directores": [
+        "Lee Isaac Chung"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0169.jpg",
+      "poster_attribution": {
+        "autor": "FLC001",
+        "fuente": "Wikimedia Commons",
+        "licencia": "CC0",
+        "archivo": "Minari (film) Logo.png"
+      }
+    },
+    {
+      "id": "MOV-0170",
+      "titulo": "Dune",
+      "anio": 2021,
+      "generos": [
+        "Ciencia ficción",
+        "Aventura"
+      ],
+      "directores": [
+        "Denis Villeneuve"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0170.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Marmolejo1489&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Marmolejo1489 (page does not exist)\">Marmolejo1489</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Dune movie logo.png"
+      }
+    },
+    {
+      "id": "MOV-0171",
+      "titulo": "The Batman",
+      "anio": 2022,
+      "generos": [
+        "Acción",
+        "Crimen",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Matt Reeves"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0172",
+      "titulo": "Everything Everywhere All at Once",
+      "anio": 2022,
+      "generos": [
+        "Ciencia ficción",
+        "Comedia",
+        "Acción"
+      ],
+      "directores": [
+        "Daniel Kwan",
+        "Daniel Scheinert"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0173",
+      "titulo": "Top Gun: Maverick",
+      "anio": 2022,
+      "generos": [
+        "Acción",
+        "Drama"
+      ],
+      "directores": [
+        "Joseph Kosinski"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0173.jpg",
+      "poster_attribution": {
+        "autor": "Paramount Pictures",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Top Gun Maverick logo.png"
+      }
+    },
+    {
+      "id": "MOV-0174",
+      "titulo": "Puss in Boots: The Last Wish",
+      "anio": 2022,
+      "generos": [
+        "Animación",
+        "Aventura",
+        "Comedia"
+      ],
+      "directores": [
+        "Joel Crawford"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0174.jpg",
+      "poster_attribution": {
+        "autor": "DreamWorks Animation",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Der gestiefelte Kater – Der letzte Wunsch Filmlogo.png"
+      }
+    },
+    {
+      "id": "MOV-0175",
+      "titulo": "Guillermo del Toro's Pinocchio",
+      "anio": 2022,
+      "generos": [
+        "Animación",
+        "Fantasía",
+        "Drama"
+      ],
+      "directores": [
+        "Guillermo del Toro",
+        "Mark Gustafson"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0175.jpg",
+      "poster_attribution": {
+        "autor": "Netflix",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Logo de Pinocho de Guillermo del Toro.png"
+      }
+    },
+    {
+      "id": "MOV-0176",
+      "titulo": "Oppenheimer",
+      "anio": 2023,
+      "generos": [
+        "Biográfica",
+        "Drama",
+        "Histórica"
+      ],
+      "directores": [
+        "Christopher Nolan"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0176.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Heartk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Heartk (page does not exist)\">Heartk</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "CC0",
+        "archivo": "Filming of the 2022 movie Oppenheimer at UC Berkeley.jpg"
+      }
+    },
+    {
+      "id": "MOV-0177",
+      "titulo": "Barbie",
+      "anio": 2023,
+      "generos": [
+        "Comedia",
+        "Fantasía"
+      ],
+      "directores": [
+        "Greta Gerwig"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0178",
+      "titulo": "Spider-Man: Across the Spider-Verse",
+      "anio": 2023,
+      "generos": [
+        "Animación",
+        "Acción",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Joaquim Dos Santos",
+        "Kemp Powers",
+        "Justin K. Thompson"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0178.jpg",
+      "poster_attribution": {
+        "autor": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Sony_Pictures_Animation\" class=\"extiw\" title=\"w:en:Sony Pictures Animation\"><span title=\"American computer-animated film production company\">Sony Pictures Animation</span></a>\n</bdi>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Spider-Man Across the Spider-Verse logo.webp"
+      }
+    },
+    {
+      "id": "MOV-0179",
+      "titulo": "The Boy and the Heron",
+      "anio": 2023,
+      "generos": [
+        "Animación",
+        "Fantasía"
+      ],
+      "directores": [
+        "Hayao Miyazaki"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0180",
+      "titulo": "Poor Things",
+      "anio": 2023,
+      "generos": [
+        "Ciencia ficción",
+        "Comedia",
+        "Drama"
+      ],
+      "directores": [
+        "Yorgos Lanthimos"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0181",
+      "titulo": "The Holdovers",
+      "anio": 2023,
+      "generos": [
+        "Comedia",
+        "Drama"
+      ],
+      "directores": [
+        "Alexander Payne"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0182",
+      "titulo": "Dune: Part Two",
+      "anio": 2024,
+      "generos": [
+        "Ciencia ficción",
+        "Aventura"
+      ],
+      "directores": [
+        "Denis Villeneuve"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0182.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"//commons.wikimedia.org/wiki/User:ManoSolo13241324\" title=\"User:ManoSolo13241324\">ManoSolo13241324</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "CC0",
+        "archivo": "Austin Butler 2024.jpg"
+      }
+    },
+    {
+      "id": "MOV-0183",
+      "titulo": "Inside Out 2",
+      "anio": 2024,
+      "generos": [
+        "Animación",
+        "Comedia",
+        "Drama"
+      ],
+      "directores": [
+        "Kelsey Mann"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0183.jpg",
+      "poster_attribution": {
+        "autor": "<a href=\"https://en.wikipedia.org/wiki/The_Walt_Disney_Company\" class=\"extiw\" title=\"w:The Walt Disney Company\">Disney</a>/<a href=\"https://en.wikipedia.org/wiki/Pixar_Animation_Studios\" class=\"extiw\" title=\"w:Pixar Animation Studios\">Pixar</a>",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Inside Out 2.jpg"
+      }
+    },
+    {
+      "id": "MOV-0184",
+      "titulo": "Deadpool & Wolverine",
+      "anio": 2024,
+      "generos": [
+        "Acción",
+        "Comedia",
+        "Superhéroes"
+      ],
+      "directores": [
+        "Shawn Levy"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0184.jpg",
+      "poster_attribution": {
+        "autor": "Marvel Studios",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "Deadpool & Wolverine Logo.svg"
+      }
+    },
+    {
+      "id": "MOV-0185",
+      "titulo": "Wicked",
+      "anio": 2024,
+      "generos": [
+        "Musical",
+        "Fantasía"
+      ],
+      "directores": [
+        "Jon M. Chu"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/MOV-0185.jpg",
+      "poster_attribution": {
+        "autor": "Universal Pictures<br>Royal Borough of Greenwich",
+        "fuente": "Wikimedia Commons",
+        "licencia": "Public domain",
+        "archivo": "GreenWitch logo (Greenwich x Wicked marketing stunt).png"
+      }
+    },
+    {
+      "id": "MOV-0186",
+      "titulo": "The Substance",
+      "anio": 2024,
+      "generos": [
+        "Terror",
+        "Drama",
+        "Ciencia ficción"
+      ],
+      "directores": [
+        "Coralie Fargeat"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0187",
+      "titulo": "The Wild Robot",
+      "anio": 2024,
+      "generos": [
+        "Animación",
+        "Ciencia ficción",
+        "Aventura"
+      ],
+      "directores": [
+        "Chris Sanders"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0188",
+      "titulo": "Anora",
+      "anio": 2024,
+      "generos": [
+        "Comedia",
+        "Drama"
+      ],
+      "directores": [
+        "Sean Baker"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    },
+    {
+      "id": "MOV-0189",
+      "titulo": "Flow",
+      "anio": 2024,
+      "generos": [
+        "Animación",
+        "Aventura"
+      ],
+      "directores": [
+        "Gints Zilbalodis"
+      ],
+      "sinopsis": null,
+      "fuente_verificacion": "Registro curado manualmente; verificar títulos y créditos antes de redistribuir",
+      "poster": "images/posters/placeholder.svg",
+      "poster_attribution": {
+        "autor": "MovieSearch",
+        "fuente": "Diseño original",
+        "licencia": "Original (MovieSearch)",
+        "archivo": "placeholder.svg"
+      }
+    }
+  ]
+}

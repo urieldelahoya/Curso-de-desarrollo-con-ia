@@ -1,0 +1,11 @@
+const fs = require('fs');
+const data = JSON.parse(fs.readFileSync('data/dataset_principal.json', 'utf8'));
+const movies = data.peliculas;
+const real = movies.filter(m => m.poster && m.poster !== 'images/posters/placeholder.svg').length;
+const ph = movies.filter(m => m.poster === 'images/posters/placeholder.svg').length;
+const none = movies.filter(m => !m.poster).length;
+console.log('Total películas:', movies.length);
+console.log('Con imagen real (Wikimedia Commons):', real);
+console.log('Con placeholder SVG (diseño original):', ph);
+console.log('Sin campo poster:', none);
+console.log('Archivos en images/posters:', fs.readdirSync('images/posters').length);

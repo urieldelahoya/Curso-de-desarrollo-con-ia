@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieSearch — Catálogo local de películas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">MS</div>
+        <div class="brand-text">
+          <h1>MovieSearch</h1>
+          <p class="brand-sub">Catálogo local de demostración • 100 % sin APIs externas</p>
+        </div>
+      </div>
+      <div class="stats">
+        <span class="stat"><span class="stat-value" id="stat-count">-</span> películas</span>
+        <span class="stat"><span class="stat-value" id="stat-years">-</span> rango</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <div class="search-box">
+        <label class="visually-hidden" for="search">Buscar por título</label>
+        <input type="search" id="search" placeholder="Buscar película por título…" autocomplete="off">
+        <button class="btn-reset" id="reset-search" aria-hidden="true" title="Limpiar búsqueda">×</button>
+      </div>
+      <div class="filters">
+        <select id="filter-year"><option value="">Año</option></select>
+        <select id="filter-genre"><option value="">Género</option></select>
+        <select id="filter-director"><option value="">Director</option></select>
+        <button id="clear-filters" class="btn ghost">Limpiar filtros</button>
+      </div>
+      <div class="results-count" id="results-count" style="display:none;">
+        Mostrando <span id="count">-</span> de <span id="total">-</span> películas
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery" aria-label="Catálogo de películas">
+      <!-- Tarjetas inyectadas por JavaScript -->
+    </section>
+  </main>
+
+  <!-- Asistente de consultas (basado únicamente en registros locales) -->
+  <section class="assistant-panel">
+    <div class="container assistant-inner">
+      <h2>Asistente de consultas</h2>
+      <p class="assistant-hint">
+        Pregunta sobre el catálogo local. Ejemplos:
+        <strong>"¿Cuántas películas hay?"</strong>,
+        <strong>"¿En qué año se estrenó Interstellar?"</strong>,
+        <strong>"¿Quién dirigió Parasite?"</strong>,
+        <strong>"Películas de Christopher Nolan"</strong>,
+        <strong>"Películas de 2024"</strong>,
+        <strong>"Películas de género Terror"</strong>.
+      </p>
+      <div class="assistant-input">
+        <input type="text" id="assistant-query" placeholder="Escribe tu consulta…">
+        <button id="assistant-ask" type="button">Consultar</button>
+      </div>
+      <div class="assistant-response" id="assistant-response" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- Modal de detalles de película -->
+  <div class="modal" id="detail-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close" aria-label="Cerrar detalles">✕</button>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>MovieSearch — Datos exclusivamente de <code>data/dataset_principal.json</code>. Sin APIs externas, sin bases de datos, sin TMDB.</p>
+      <p class="footer-note">Respuestas del asistente basadas únicamente en registros locales. Cada respuesta cita el ID del registro que la respalda.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
